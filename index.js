@@ -11,7 +11,7 @@ const makeCommit = (n) => {
   const x = random.int(0, 54);
   const y = random.int(0, 6);
   const DATE = moment()
-    .subtract(4, "y")
+    .subtract(9, "y")
     .add(5, "d")
     .add(x, "w")
     .add(y, "d")
@@ -28,4 +28,4 @@ const makeCommit = (n) => {
   });
 };
 
-makeCommit(110);
+makeCommit(100);
